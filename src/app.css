@@ -1,0 +1,70 @@
+#parent{
+    position: fixed; top: 0;scrollbar-width: none; bottom: 0; left: 55px; overflow-y:auto ;
+ background: url("./img/BaseTheme.jpg") no-repeat;
+ background-size: 100% auto;  
+   /* background-color: black;  */
+   /* background-attachment: fixed;    */
+   background-color: black;
+}
+/* ترفند: وقتی جا خالی زیاد باشه (عرض > ارتفاع یا برعکس)، بریم روی cover */
+/* @media (min-aspect-ratio: 16/9) {
+  #parent {
+    background-size: cover;
+  }
+}
+@media (max-aspect-ratio: 4/5) {
+  #parent {
+    background-size: cover;
+  }
+} */
+#parentChild {
+  position: relative;
+  direction: ltr;
+}
+
+#parentChild canvas {
+  display: block;
+  margin: 0;  
+}
+
+#btnschild{
+  position: fixed;
+  top: 0;  
+  z-index: 10;
+  left: 80px;
+  color: white; 
+  direction: ltr; 
+  margin-left: 85px;
+}
+/* span مربوط به نمایش تاریخ حال */
+#currentTime{
+  position: absolute; top: 47%; right: 20px; color: #be7749
+}
+#now{
+  position: absolute; top: 51%; right: 158px; color: #be7749
+}
+#pright{
+  position: relative;
+}
+#lineRight{
+  position: fixed;
+  top: 0;
+  left: 180px;
+  bottom: 0;  
+}
+
+#search{
+  position: fixed; bottom: -16px; width: 327px; left: 50px;
+}
+#dSearch{
+  background-color: black; text-align: left;
+}
+#spansearch{
+  color: #be7749; font-weight: bold; display: inline-block; margin-left: 10px;
+}
+#searchw{
+  background-color: #b74002; border: none; color: #0a952d; font-weight: bold;
+}
+#date{
+  background-color: #b74002; border: none; color: #0a952d; font-weight: bold; width: 52px; margin-right: -5px !important;
+}

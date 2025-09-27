@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactviavoice/static/css/main.14d6cd13.css",
+    "main.js": "/reactviavoice/static/js/main.16cbbd92.js",
+    "static/media/BaseTheme.jpg": "/reactviavoice/static/media/BaseTheme.7c8b66914efe7de3a28d.jpg",
+    "index.html": "/reactviavoice/index.html",
+    "main.14d6cd13.css.map": "/reactviavoice/static/css/main.14d6cd13.css.map",
+    "main.16cbbd92.js.map": "/reactviavoice/static/js/main.16cbbd92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14d6cd13.css",
+    "static/js/main.16cbbd92.js"
+  ]
+}
